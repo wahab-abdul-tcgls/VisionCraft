@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Creative Generator</h1>
+        <div class="form-group">
+            <label for="event">Select Event:</label>
+            <select id="event">
+                <option value="Event 1">Event 1</option>
+                <option value="Event 2">Event 2</option>
+                <option value="Event 3">Event 3</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="segment">Choose Segment:</label>
+            <select id="segment">
+                <option value="Segment 1">Segment 1</option>
+                <option value="Segment 2">Segment 2</option>
+                <option value="Segment 3">Segment 3</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="creative_image">Creative Image URL:</label>
+            <input type="text" id="creative_image" placeholder="Enter image URL">
+        </div>
+        <div class="form-group">
+            <label for="project_logo">Project Logo URL:</label>
+            <input type="text" id="project_logo" placeholder="Enter logo URL">
+        </div>
+        <div class="form-group">
+            <label for="phone">Contact Number:</label>
+            <input type="text" id="phone" placeholder="Enter contact number">
+        </div>
+        <div class="form-group">
+            <label for="website">Website:</label>
+            <input type="text" id="website" placeholder="Enter website URL">
+        </div>
+        <div class="buttons">
+            <button id="generate">Generate Creative</button>
+            <a id="download-link" href="#" style="display: none;" download="creatives.html">Download Creative</a>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+pandas
+boto
+response
+Flask==2.0.1
